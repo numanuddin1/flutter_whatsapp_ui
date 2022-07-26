@@ -23,10 +23,7 @@ class _HomePageState extends State<HomePage> {
           appBar: AppBar(
             title: Text(
               'WhatsApp',
-              style: TextStyle(
-                fontWeight: FontWeight.w500,
-                fontSize: 19
-              ),
+              style: TextStyle(fontWeight: FontWeight.w500, fontSize: 19),
             ),
             actions: [
               Icon(Icons.search),
@@ -74,7 +71,7 @@ class _HomePageState extends State<HomePage> {
             Center(
               child: Text('Camera'),
             ),
-           ChatTab(),
+            ChatTab(),
           ]),
           floatingActionButton: FloatingActionButton(
             onPressed: () {},
