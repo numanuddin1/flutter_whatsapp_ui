@@ -67,6 +67,7 @@ class _HomePageState extends State<HomePage> {
               ],
             ),
           ),
+
           body: TabBarView(children: [
             Center(
               child: Text('Camera'),
